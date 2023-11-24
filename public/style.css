@@ -4,6 +4,43 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #00000099;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background-color: #F5F5F5;
+}
+
+header {
+    background-color: #FFFFFF;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.pages {
+    height: 48px;
+    width: 328px;
+    display: flex;
+    align-items: center;
+}
+
+.pages > div {
+    width: 50%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
