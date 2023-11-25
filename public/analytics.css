@@ -5,3 +5,146 @@
 .analytics_page {
     border-bottom: 2px #23B04A solid;
 }
+
+.container {
+    padding: 50px 100px;
+}
+
+.device_data {
+    width: 100%;
+    height: 600px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+.head {
+    height: 72px;
+    display: flex;
+}
+
+.device_image {
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.name > p:nth-child(1) {
+    font-size: 20px;
+}
+
+.name > p:nth-child(2) {
+    color: #00000099;
+}
+
+.name > span {
+    position: relative;
+    bottom: 20px;
+}
+
+.head_icons {
+    height: 56px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.head_icons > select {
+    height: 24px;
+    border: 1px solid #23B04A;
+    background-color: #FFFFFF;
+    color: #23B04A;
+}
+
+.mode {
+    padding: 12px 16px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mode > select {
+    width: fit-content;
+    padding: 8px 12px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.save_icons {
+    display: flex;
+    gap: 24px;
+}
+
+.dates {
+    padding: 8px 16px;
+    height: 56px;
+    display: flex;
+}
+
+.date {
+    width: 180px;
+    height: 40px;
+    padding: 10px 8px;
+    border: 1px solid #0000001F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery_time {
+    height: 60px;
+    padding: 8px 16px 20px 16px;
+    display: flex;
+    gap: 16px;
+}
+
+.time {
+    height: 32px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background-color: #21212114;
+    color: #00000099;
+    text-align: center;
+}
+
+.time:nth-child(3) {
+    background-color: #C2E7C8;
+}
+
+table {
+    padding: 12px 16px;
+    color: #00000099;
+}
+
+td {
+    padding: 12px;
+}
+
+tbody > tr > td:nth-child(2) > p:first-child {
+    color: #23B04A;
+}
+
+.row > td:nth-child(1) {
+    width: 160px;
+}
+
+thead {
+    height: 45px;
+
+}
