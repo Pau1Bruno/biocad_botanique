@@ -29,6 +29,11 @@
     align-items: center;
 }
 
+.device_image > img {
+    width: 40px;
+    height: 40px;
+}
+
 .name {
     display: flex;
     flex-direction: column;
@@ -73,6 +78,8 @@
 }
 
 .mode > select {
+    border: none;
+    background-color: #FFFFFF;
     width: fit-content;
     padding: 8px 12px;
     height: 40px;
@@ -128,15 +135,30 @@
 }
 
 table {
-    padding: 12px 16px;
+    border-collapse: collapse;
+    margin: 12px 16px;
     color: #00000099;
+}
+
+tr {
+    border-bottom: 1px solid #F5F5F5;
+    /*background-color: #23B04A;*/
 }
 
 td {
     padding: 12px;
 }
 
-tbody > tr > td:nth-child(2) > p:first-child {
+
+thead {
+    height: 45px;
+}
+
+tbody > tr {
+    height: 125px;
+}
+
+tbody > tr > td:nth-child(2) > div > p:first-child {
     color: #23B04A;
 }
 
@@ -144,7 +166,44 @@ tbody > tr > td:nth-child(2) > p:first-child {
     width: 160px;
 }
 
-thead {
-    height: 45px;
+.row > td:nth-child(2) {
+    width: 130px;
+}
 
+.row > td:nth-child(3) {
+    width: 85%;
+}
+.row > td:nth-child(4) {
+    width: 15%;
+}
+
+.row > td:nth-child(5) {
+    width: 140px;
+}
+
+.start_date, .start_date, .user {
+    display: flex;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+}
+
+.state > div{
+    height: 125px;
+}
+
+.result > div{
+    display: flex;
+}
+
+.result > div > p {
+    height: 100px;
+    width: 90%;
+    overflow: hidden;
+}
+
+.user > a {
+    color: #2E9BC2;
 }
